@@ -2,9 +2,19 @@ import java.util.Random;
 
 
 public final static int[] COINS_VALUES = {1, 5, 10, 25}; // couns values in cents
-
 public final static String[] COINS_NAMES = {"PENNY", "NICKEL", "DIME", "QUARTER"}; // coins names
 public final static String NO_SUCH_COIN = "N/A"; // N/A string
 private final static Random RAND_GEN = new Random(100); // Generator of random ints
 
-Test
+
+
+/**
+ * Returns the name of a specified coin value
+ * @param coin represents a coin value in cents.
+ * @return the String name of a specified coin value if it is valid and N/A if the
+ *        coin value is not valid
+ */
+public static String getCoinName(int coin) {
+  return ""; // return an empty string
+}
+
