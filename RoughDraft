@@ -1,20 +1,57 @@
+//////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
+//
+// Title:   Piggy Bank
+// Files:   (a list of all source files used by that program, including tests)
+// Course:  CS300 Spring 2020
+//
+// Author:  Brock Huffar
+// Email:   bhuffar@wisc.edu
+// Lecturer's Name: Gary Dahl
+//
+//////////// PAIR PROGRAMMING (MAY SKIP WHEN WORKING INDIVIDUALLY) ////////////
+//
+// Partner Name:    Rex Wasserman
+// Partner Email:   rwasserman2@wisc.edu
+// Partner Lecturer's Name: Hobbes LeGault
+// 
+// VERIFY THE FOLLOWING BY PLACING AN X NEXT TO EACH TRUE STATEMENT:
+//   __X_ Write-up states that pair programming is allowed for this assignment.
+//   __X_ We have both read and understood the course Pair Programming Policy.
+//   __X_ We have registered our team prior to the team registration deadline.
+//
+///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
+//
+// Students who get help from sources other than their partner and the course 
+// staff must fully acknowledge and credit those sources here.  If you did not
+// receive any help of any kind from outside sources, explicitly indicate NONE
+// next to each of the labels below.
+//
+// Persons:         (identify each person and describe their help in detail)
+// Online Sources:  (identify each URL and describe their assistance in detail)
+//
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
 import java.util.Random;
 
 
 public final static int[] COINS_VALUES = {1, 5, 10, 25}; // couns values in cents
+
 public final static String[] COINS_NAMES = {"PENNY", "NICKEL", "DIME", "QUARTER"}; // coins names
 public final static String NO_SUCH_COIN = "N/A"; // N/A string
 private final static Random RAND_GEN = new Random(100); // Generator of random ints
 
-
-
 /**
- * Returns the name of a specified coin value
- * @param coin represents a coin value in cents.
- * @return the String name of a specified coin value if it is valid and N/A if the
- *        coin value is not valid
- */
+* Returns the name of a specified coin value
+* @param coin represents a coin value in cents.
+* @return the String name of a specified coin value if it is valid and N/A if the
+* coin value is not valid
+*/
 public static String getCoinName(int coin) {
-  return ""; // return an empty string
+
+return ""; // return an empty string
+
 }
 
