@@ -1,1 +1,8 @@
+import java.util.Random;
 
+
+public final static int[] COINS_VALUES = {1, 5, 10, 25}; // couns values in cents
+
+public final static String[] COINS_NAMES = {"PENNY", "NICKEL", "DIME", "QUARTER"}; // coins names
+public final static String NO_SUCH_COIN = "N/A"; // N/A string
+private final static Random RAND_GEN = new Random(100); // Generator of random ints
