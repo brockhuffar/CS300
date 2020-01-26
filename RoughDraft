@@ -32,6 +32,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
+
+
 import java.util.Random;
 
 
@@ -48,8 +50,21 @@ private final static Random RAND_GEN = new Random(100); // Generator of random i
 * coin value is not valid
 */
 public static String getCoinName(int coin) {
-
+if (coin.equals(25)) {
+return "quarter";
+}
+else if (coin.equals(10)) {
+return "dime";
+}
+else if (coin.equals(5)) {
+return "nickel";
+}
+else if (coin.equals(1)) {
+return "penny";
+}
+else {
 return ""; // return an empty string
+}
 
 }
 
