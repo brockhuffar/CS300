@@ -31,17 +31,14 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-
-
-
 import java.util.Random;
 
+public class PiggyBank {
 
-public final static int[] COINS_VALUES = {1, 5, 10, 25}; // couns values in cents
-
-public final static String[] COINS_NAMES = {"PENNY", "NICKEL", "DIME", "QUARTER"}; // coins names
-public final static String NO_SUCH_COIN = "N/A"; // N/A string
-private final static Random RAND_GEN = new Random(100); // Generator of random ints
+  public final static int[] COINS_VALUES = {1, 5, 10, 25}; // couns values in cents
+  public final static String[] COINS_NAMES = {"PENNY", "NICKEL", "DIME", "QUARTER"}; // coins names
+  public final static String NO_SUCH_COIN = "N/A"; // N/A string
+  private final static Random RAND_GEN = new Random(100); // Generator of random ints
 
 /**
 * Returns the name of a specified coin value
@@ -50,21 +47,8 @@ private final static Random RAND_GEN = new Random(100); // Generator of random i
 * coin value is not valid
 */
 public static String getCoinName(int coin) {
-if (coin.equals(25)) {
-return "quarter";
-}
-else if (coin.equals(10)) {
-return "dime";
-}
-else if (coin.equals(5)) {
-return "nickel";
-}
-else if (coin.equals(1)) {
-return "penny";
-}
-else {
+
 return ""; // return an empty string
-}
 
 }
 
